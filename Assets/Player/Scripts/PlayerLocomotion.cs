@@ -67,13 +67,13 @@ public class PlayerLocomotion : MonoBehaviour
             {
                 characterController.height = 0.65f;
                 characterController.center = new Vector3(0f, 0.5f, 0f);
-                Debug.Log("Pressed Crouch Button");
+
             }
             else
             {
                 characterController.height = 2f;
                 characterController.center = new Vector3(0f, 1f, 0f);
-                Debug.Log("Unpressed Crouch Button");
+
             }
             
         }
